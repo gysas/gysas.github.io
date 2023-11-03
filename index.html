@@ -1,0 +1,259 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Guillem Ysàs</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Curriculum Vitae de Guillem Ysàs">
+		<meta name="author" content="Guillem Ysàs">
+		<style type="text/css">
+		:root
+		{
+			/* Colors of nordtheme.com */
+			--nord0: #2e3440;
+			--nord1: #3b4252;
+			--nord2: #434c5e;
+			--nord3: #4c566a;
+			--nord4: #d8dee9;
+			--nord5: #e5e9f0;
+			--nord6: #eceff4;
+		}
+		@font-face
+		{
+			font-family: "JetBrains Mono";
+			src: url('fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2');
+		}
+		body
+		{
+			margin: 0;
+			padding: 0;
+			font-family: 'JetBrains Mono';
+			color: var(--nord1);
+			background-color: var(--nord4);
+		}
+		h1, h2
+		{
+			margin: 0;
+			padding: 0;
+			text-transform: uppercase;
+		}
+		h2
+		{
+			line-height: 3rem;
+			border-color: var(--nord1);
+			border-bottom-style: solid;
+			border-bottom-width: 0.25rem;
+		}
+		h3
+		{
+			display: inline-block;
+		}
+		.wrapper
+		{
+			margin: 0 auto;
+			max-width: 1000px;
+		}
+		header, .card
+		{
+			margin-top: 30px;
+			margin-bottom: 30px;
+			padding: 1.5rem;
+			background-color: var(--nord6);
+		}
+		.timeline
+		{
+			position: relative;
+		}
+		.timeline-relative
+		{
+			padding-left: 2rem;
+		}
+		.timeline-relative:before
+		{
+			content: "";
+			display: inline-block;
+			position: absolute;
+			top: 23px;
+			left: 6px;
+			box-sizing: border-box;
+			width: 3px;
+			height: 100%;
+			background-color: var(--nord1);
+		}
+		.resume
+		{
+			position: relative;
+		}
+		.resume-title:before
+		{
+			content: "";
+			display: inline-block;
+			position: absolute;
+			top: 23px;
+			left: -32px;
+			box-sizing: border-box;
+			width: 15px;
+			height: 15px;
+			border-color: var(--nord1);
+			border-style: solid;
+			border-width: 4px;
+			border-radius: 50%;
+			background-color: var(--nord6);
+		}
+		.resume-achievements > p
+		{
+			font-weight: bold;
+		}
+		.resume-pill li
+		{
+			display: inline;
+			padding: 2px 4px;
+			border-color: var(--nord6);
+			border-style: solid;
+			border-width: 1px;
+			border-radius: 6px;
+			background-color: var(--nord4);
+		}
+		.resume-languages > p
+		{
+			font-weight: bold;
+		}
+		.resume-languages ul
+		{
+			list-style: none;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Guillem Ysàs</h1>
+				<p>Software engineer</p>
+				<div class="contact">
+					<img src="envelope.svg"/>
+					guillem at ysàs.cat
+				</div>
+				<div class="contact">
+					<img src="envelope.svg"/>
+					gysas at pm.me
+				</div>
+				<div class="contact">
+					<img src="phone.svg"/>
+					+34 669 052 100
+				</div>
+			</header>
+			<div class="card">
+				<h2>Profile</h2>
+				<p>I'm a C++ software developer with nearly ten years of experience in the software industry.</p>
+				<p>My experience encompasses the full lifecycle of software development, from its conceptual beginnings, design, implementation, test and deployment as well as managing its scalability, maintainability and efficiency.</p>
+				<p>I've studied in Universitat Autònoma de Barcelona where I picked my interests for software architecture and efficient, performant and scalable code solutions.
+				My Bachelors final project was about computer architecture and developed in C.</p>
+				<p>Currently engaged in an artificial intelligence project with an innovative approach around natural language interpretation and reasoning applied to document reading.</p>
+			</div>
+			<div class="card">
+				<h2>Experience</h2>
+				<div class="timeline">
+					<div class="timeline-relative">
+						<article class="resume">
+							<div class="resume-title">
+								<h3>Co Founder & Lead developer</h3>
+								<div>Atomian S.L.</div>
+								<div>04/2014 - 11/2023</div>
+							</div>
+							<div class="resume-content">
+								<p>Company centered in the development of custom artificial intelligence technology around interpretation and reasoning of natural language</p>
+							</div>
+							<div class="resume-achievements">
+								<p>Achievements</p>
+								<ul>
+									<li>Design and implementation of an internal C++ library for artificial intelligence knowlege data insertion</li>
+									<li>Design and implementation of various service applications for reading and processing emails and filesystem documents through artificial intelligence services</li>
+									<li>Design and implementation of a service application for the retrieval of documents through an API to be processed for an artificial intelligence service</li>
+									<li>Design and implementation of a middleware service application for retrieval and balanced dispatch of documents to artificial intelligence extraction services</li>
+									<li>Design and implementation of an artificial intelligence service for extracting data from notary invoices</li>
+									<li>Design and implementation of an artificial intelligence service for extracting data from land registry deeds</li>
+									<li>Implementation of memory management changes in the artificial intelligence core technology for huge performance gains and service stability</li>
+									<li>Successfully migrated the artificial intelligence core technology from C++03 to C++17</li>
+								</ul>
+							</div>
+							<ul class="resume-pill">
+								<li>C++</li>
+								<li>C++20 Modules</li>
+								<li>MySQL</li>
+								<li>Git</li>
+								<li>Git Submodules</li>
+								<li>Bash</li>
+								<li>Windows Server</li>
+							</ul>
+						</article>
+						<article class="resume">
+							<div class="resume-title">
+								<h3>Intern web developer</h3>
+								<div>Elecnor/Teytel</div>
+								<div>05/2012 - 07/2013</div>
+							</div>
+							<div class="resume-content">
+								<p>Intern web developer to help in the development department to produce a solution to speedup the manufacturing process; specifically to reduce the configuration of telemetry devices and management of work orders.</p>
+							</div>
+							<div class="resume-achievements">
+								<p>Achievements</p>
+								<ul>
+									<li>Design and implementation of a replacement solution for management and automation as a means to reduce the manufacturing and configuration times of telemetry devices for a major company in Spain</li>
+									<li>Design and implementation of SQL scripts for a successfull migration of data from a major version to the next from incompatible database designs</li>
+								</ul>
+							</div>
+							<ul class="resume-pill">
+								<li>PHP</li>
+								<li>MySQL</li>
+								<li>jQuery</li>
+								<li>Mercurial</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Debian</li>
+							</ul>
+						</article>
+						<article class="resume">
+							<div class="resume-title">
+								<h3>Incident operator (1st level)</h3>
+								<div>Hewlett Packard</div>
+								<div>09/2010 - 09/2011</div>
+							</div>
+							<div class="resume-content">
+								<p>Reception and resolution of incidents reported for a major bank in Spain as well as operative interventions on its online services</p>
+							</div>
+							<ul class="resume-pill">
+								<li>Bash</li>
+								<li>HP-UX</li>
+							</ul>
+						</article>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<h2>Education</h2>
+				<div class="timeline2">
+					<div class="timeline-relative2">
+						<article class="resume2">
+							<div class="resume-title">
+								<h3>Computer engineering</h3>
+								<div>Universitat Autònoma de Barcelona</div>
+								<div>2005 - 2013</div>
+							</div>
+							<div class="resume-languages">
+								<p>Languages</p>
+								<ul>
+									<li>Catalan <small>(Native)</small></li>
+									<li>Spanish <small>(Native)</small></li>
+									<li>English <small>(Intermediate/Advanced)</small></li>
+								</ul>
+							</div>
+							<div class="resume-content">
+								<p></p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
